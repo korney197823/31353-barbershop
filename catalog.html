@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <title>Каталог товаров</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header class="main-header">
       <div class="container">
-        <a href="index.html"><img src="http://lorempixel.com/100/50/" alt=""></a>
+        <a href="index.html"><img src="img/BORODINSKI%20Logo2.png" alt="Logo" width="111" height="24"></a>
         <nav class="main-navigation">
           <ul>
             <li><a href="#">ИНФОРМАЦИЯ</a></li>
@@ -28,10 +29,10 @@
         <div class="breadcrumbs">
           <ul>
             <li>
-              <a href="#">ГЛАВНАЯ</a>
+              <a href="index.html">ГЛАВНАЯ</a>
             </li>
             <li>
-              <a href="#">МАГАЗИН</a>
+              <a href="catalog.html">МАГАЗИН</a>
             </li>
             <li>
               <a href="#">СРЕДСТВА ДЛЯ УХОДА</a>
@@ -41,35 +42,47 @@
       </div>
       <section class="filter">
         <form action="#">
-          <label>
-            <input type="checkbox">baxter of california
-          </label>
-          <label>
-            <input type="checkbox">mr natty
-          </label>
-          <label>
-            <input type="checkbox">suavecito
-          </label>
-          <label>
-            <input type="checkbox">malin+goetz
-          </label>
-          <label>
-            <input type="checkbox">murray's
-          </label>
-          <label>
-            <input type="checkbox">american crew
-          </label>
-        </form>
-        <div class="group-products">
-          <h2 class="group-products-title">ГРУППЫ ТОВАРОВ</h2>
+          <fieldset>
+            <legend>ПРОИЗВОДИТЕЛИ:</legend>
+              <label>
+                <input type="checkbox">baxter of california
+              </label>
+              <label>
+                <input type="checkbox">mr natty
+              </label>
+              <label>
+                <input type="checkbox">suavecito
+              </label>
+              <label>
+                <input type="checkbox">malin+goetz
+              </label>
+              <label>
+                <input type="checkbox">murray's
+              </label>
+              <label>
+                <input type="checkbox">american crew
+              </label>
+          </fieldset>
+          <fieldset>
+            <legend>ГРУППЫ ТОВАРОВ:</legend>
+            <label>
+              <input type="radio"><span>Бритвенные принадлежности</span>
+            </label>
+            <label>
+              <input type="radio"><span>Средства для ухода</span>
+            </label>
+            <label>
+              <input type="radio"><span>Аксессуары</span>
+            </label>
+          </fieldset>
           <a class="btn" href="#">ПОКАЗАТЬ</a>
-        </div>
+        </form>
       </section>
       <section class="products">
         <div class="products-item">
           <figure class="products-img">
-            <img src="http://lorempixel.com/100/80/" alt="">
-            <figcaption>Набор для путешествий "BAXTER OF CALIFORNIA"</figcaption>
+            <img src="img/shop_gallery1.jpg" alt="Набор для путешествий" width="220" height="165">
+            <figcaption><a href="catalog-item.html"><span class="category">Набор для путешествий</span><span class="title">"BAXTER OF CALIFORNIA"</span></a></figcaption>
             <div class="product-price">
               <span class="price">2900 руб.</span>
               <a class="btn" href="#">КУПИТЬ</a>
@@ -78,8 +91,8 @@
         </div>
         <div class="products-item">
           <figure class="products-img">
-            <img src="http://lorempixel.com/100/80/" alt="">
-            <figcaption>Увлажняющий кондиционер "BAXTER OF CALIFORNIA"</figcaption>
+            <img src="img/shop_gallery2.jpg" alt="Увлажняющий кондиционер" width="220" height="165">
+            <figcaption><a href="#"><span class="category">Увлажняющий кондиционер</span><span class="title">"BAXTER OF CALIFORNIA"</span></a></figcaption>
             <div class="product-price">
               <span class="price">750 руб.</span>
               <a class="btn" href="#">КУПИТЬ</a>
@@ -88,8 +101,8 @@
         </div>
         <div class="products-item">
           <figure class="products-img">
-            <img src="http://lorempixel.com/100/80/" alt="">
-            <figcaption>Гель для волос "SUAVECITO"</figcaption>
+            <img src="img/shop_gallery3.jpg" alt="Гель для волос" width="220" height="165">
+            <figcaption><a href="#"><span class="category">Гель для волос</span><span class="title">"SUAVECITO"</span></a></figcaption>
             <div class="product-price">
               <span class="price">290 руб.</span>
               <a class="btn" href="#">КУПИТЬ</a>
@@ -98,8 +111,8 @@
         </div>
         <div class="products-item">
           <figure class="products-img">
-            <img src="http://lorempixel.com/100/80/" alt="">
-            <figcaption>Глина для укладки волос "AMERICAN CREW"</figcaption>
+            <img src="img/shop_gallery4.jpg" alt="Глина для укладки волос" width="220" height="165">
+            <figcaption><a href="#"><span class="category">Глина для укладки волос</span><span class="title">"AMERICAN CREW"</span></a></figcaption>
             <div class="product-price">
               <span class="price">500 руб.</span>
               <a class="btn" href="#">КУПИТЬ</a>
@@ -108,8 +121,8 @@
         </div>
         <div class="products-item">
           <figure class="products-img">
-            <img src="http://lorempixel.com/100/80/" alt="">
-            <figcaption>Гель для волос "AMERICAN CREW"</figcaption>
+            <img src="img/shop_gallery5.jpg" alt="Гель для волос" width="220" height="165">
+            <figcaption><a href="#"><span class="category">Гель для волос</span><span class="title">"AMERICAN CREW"</span></a></figcaption>
             <div class="product-price">
               <span class="price">300 руб.</span>
               <a class="btn" href="#">КУПИТЬ</a>
@@ -118,21 +131,19 @@
         </div>
         <div class="products-item">
           <figure class="products-img">
-            <img src="http://lorempixel.com/100/80/" alt="">
-            <figcaption>Набор для бритья "BAXTER OF CALIFORNIA"</figcaption>
+            <img src="img/shop_gallery6.jpg" alt="Набор для бритья" width="220" height="165">
+            <figcaption><a href="#"><span class="category">Набор для бритья</span><span class="title">"BAXTER OF CALIFORNIA"</span></a></figcaption>
             <div class="product-price">
               <span class="price">3900 руб.</span>
               <a class="btn" href="#">КУПИТЬ</a>
             </div>
           </figure>
         </div>
-        <div class="item-list">
-          <ul class="pager">
-            <li class="pager-item"><a href="#" title="На страницу номер 1">1</a></li>
-            <li class="pager-item"><a href="#" title="На страницу номер 2">2</a></li>
-            <li class="pager-item"><a href="#" title="На страницу номер 3">3</a></li>
-            <li class="pager-item"><a href="#" title="На страницу номер 4">4</a></li>
-          </ul>
+        <div class="paginator">
+            <a href="#" title="На страницу номер 1">1</a>
+            <a href="#" title="На страницу номер 2">2</a>
+            <a href="#" title="На страницу номер 3">3</a>
+            <a href="#" title="На страницу номер 4">4</a>
         </div>
       </section>
     </main>

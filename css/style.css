@@ -5,8 +5,15 @@ body {
   font-weight: normal;
   font-family: "PT Sans Narrow", sans-serif;
 }
-h1, h2 {
+h1 {
   font-size: 30px;
+  color: black;
+  font-weight: bold;
+  font-family: "PT Sans Narrow", sans-serif;
+}
+
+h2 {
+  font-size: 24px;
   color: black;
   font-weight: bold;
   font-family: "PT Sans Narrow", sans-serif;

@@ -36,10 +36,10 @@ body {
 
   display: block;
   clear: both;
-  height: 20px;
-  background-color: white;
-  background-image: linear-gradient(-45deg, white 45%, black 50%, white 55%);
-  background-size: 20px;
+  /*height: 20px;*/
+  /*background-color: white;*/
+  /*background-image: linear-gradient(-45deg, white 45%, black 50%, white 55%);*/
+  /*background-size: 20px;*/
 }
 
 
@@ -157,8 +157,35 @@ body {
   background-color: #ADAB4E;
 }
 .filter {
-  min-height: 600px;
+  /*min-height: 600px;*/
   width: 210px;
   background-color: #4EAD7C;
-  
+  float: left;
+}
+.products {
+  /*min-height: 600px;*/
+  width: 720px;
+  background-color: #4EAD7C;
+  float: right;
+}
+.products-item {
+  float: left;
+  width: 240px;
+}
+/*РАЗМЕТКА СТРАНИЦЫ ТОВАРА*/
+.product-gallery {
+  background-color: #D4A190;
+  width: 470px;
+  float: left;
+}
+.product-gallery-img {
+  margin-right: 17px;
+}
+.product-gallery .last {
+  margin-right: 0;
+}
+.product {
+  width: 400px;
+  float: right;
+  background-color: #A1D490;
 }

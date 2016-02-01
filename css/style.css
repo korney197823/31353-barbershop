@@ -27,8 +27,9 @@ body {
   padding: 0;
 }
 body {
-  background: #000000 url("../img/barbershop-backlground.jpg") no-repeat 50% 3px;
+  /*background: #000000 url("../img/barbershop-backlground.jpg") no-repeat 50% 3px;*/
   background-size: 1122px auto;
+  background-color: #13B9F0;
 }
 .clearfix::after {
   content: "";
@@ -45,12 +46,13 @@ body {
 .main-header {
   /* Только для оформления сетки */
   min-height: 70px;
+  background-color: #AFC7A7;
 }
 .container {
   width: 940px;
   padding: 0 10px;
   margin: 0 auto;
-
+  background-color: #BFA7C7;
 }
 .main-header {
   margin-bottom: 60px;
@@ -59,9 +61,12 @@ body {
 .main-navigation {
   width: 780px;
   float: left;
-
+  background-color: #A7BFC7;
   /* Только для оформления сетки */
   min-height: 70px;
+}
+.main-navigation li {
+  display: inline-block;
 }
 
 .user-block {
@@ -113,10 +118,14 @@ body {
   /* Только для оформления сетки */
   min-height: 330px;
 }
+.breadcrumbs li {
+  display: inline-block;
+}
 .main-footer {
   margin-top: 65px;
   padding-top: 60px;
   padding-bottom: 40px;
+  background-color: #A7BFC7;
 }
 .footer-contacts {
   float: left;
@@ -142,5 +151,14 @@ body {
   /* Только для оформления сетки */
   min-height: 90px;
 }
-
-
+/*РАЗМЕТКА КАТАЛОГА ТОВАРОВ*/
+.content-header {
+  min-height: 80px;
+  background-color: #ADAB4E;
+}
+.filter {
+  min-height: 600px;
+  width: 210px;
+  background-color: #4EAD7C;
+  
+}

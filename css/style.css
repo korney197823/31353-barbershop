@@ -118,8 +118,13 @@ body {
   /* Только для оформления сетки */
   min-height: 330px;
 }
+.breadcrumbs{
+  font-size: 0;
+}
 .breadcrumbs li {
+  font-size: 14px;
   display: inline-block;
+  vertical-align: top;
 }
 .main-footer {
   margin-top: 65px;
@@ -157,13 +162,11 @@ body {
   background-color: #ADAB4E;
 }
 .filter {
-  /*min-height: 600px;*/
   width: 210px;
   background-color: #4EAD7C;
   float: left;
 }
 .products {
-  /*min-height: 600px;*/
   width: 720px;
   background-color: #4EAD7C;
   float: right;
@@ -179,9 +182,10 @@ body {
   float: left;
 }
 .product-gallery-img {
-  margin-right: 17px;
+  float: left;
+  margin-right: 20px;
 }
-.product-gallery .last {
+.product-gallery-img:last-child{
   margin-right: 0;
 }
 .product {
